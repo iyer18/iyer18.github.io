@@ -1,0 +1,84 @@
+/* Initial body */
+body {
+  left: 0;
+  margin: 0;
+  background: #202024 url(temp.jpeg) repeat left top;
+  height: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+/* Initial Name */
+/*
+.name {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3vw;
+  padding-left: 20px;
+  text-align: left;  
+  text-decoration: none;
+  text-transform: uppercase;
+  position: fixed;
+}
+.gpa {
+  color: #4682b4;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3vw;
+  padding-left: 20px;
+  text-align: center;  
+  text-decoration: none;
+  text-transform: uppercase;
+  position: fixed;
+}
+
+.info {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-left: 20px;
+  text-decoration: none;
+  text-transform: lowercase;
+  position: relative;
+}
+
+.profile {
+
+  padding-bottom: 25px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.address {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-left: 20px;
+  text-decoration: none;
+  text-transform: none;
+  position: relative;
+}
+
+
+
+.break {
+  color: #4682b4;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 27px;
+  position: fixed;
+  top: 50px;
+  padding-left: 300px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.resume {
+  color: #4682b4;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  position: fixed;
+  top: 100;
+  padding-left: 300px;
+  text-decoration: none;
+  text-transform: none;
+}*/
