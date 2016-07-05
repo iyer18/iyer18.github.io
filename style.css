@@ -4,7 +4,8 @@ body {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 14px;
 	color: #333333;
-	background-color: #F9F9F9;
+	width: 1500px;
+	background-color: #C5FFE9;
 }
 
 p {
@@ -21,12 +22,12 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
 }
 
 h1 {
 	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 18px;
+	font-size: 23px;
+	margin-bottom: 0px;
 	font-weight: bold;
 	color: #000000;
 }
@@ -36,7 +37,7 @@ h2 {
 	font-size: 16px;
 	font-weight: bold;
 	color: #000000;
-	border-bottom: 1px solid #C6EC8C;
+	border-bottom: 1px solid #60FDC2;
 }
 
  
@@ -53,7 +54,7 @@ li a:link {
 	display: inline-block;
 	color: #FFFFFF;
 	text-decoration: none;
-	padding: 15px 15px;
+	padding: 20px 15px;
 	font-weight: bold;
 }
 
@@ -84,23 +85,62 @@ a:active {
 	font-weight: bold;
 }
 
+img: {
+    border-radius: 50%;
+}
+
 /************************* ID's *************************/
 
-#topMenu {
-position: absolute;
-margin-top: 10px;
-padding: 0 0 20px 20px; /*top right bottom left*/
-margin-left: 235px;
-border-bottom: 2px solid #C6EC8C;
-width: 100%;
+#info {
+	position: absolute;
+	bottom: 0px;
+	color: #FFFFFF;
+	background-color: #111111;
+	padding-left: 10px;
+	border-top: 2px solid #60FDC2;
+	width: 100%;
 
 }
+
+#container {
+	position: absolute;
+}
+#image {
+	position: absolute;
+	margin-top: 100px;
+}
+
+
+
 #centerDoc {
-position: absolute;
-z-index: 15;
-padding: 0 0 20px 20px; /*top right bottom left*/
-margin-top: 50px;
-margin-left: 235px;
+	position: absolute;
+	padding: 0 0 20px 20px; /*top right bottom left*/
+	margin-top: 100px;
+	margin-left: 245px;
+	color: #111111;
+	background-color: #999999;
+	width: 100%;
+
+
+}
+#topMenu {
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 235px;
+	padding-left: 10px;
+	border-bottom: 2px solid #60FDC2;
+	width: 100%;
+}
+
+#name {
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 0px;
+	padding-left: 10px;
+	margin-right: 235px;
+	background-color: #FFFFFF;
+	border-bottom: 2px solid #60FDC2;
+	width: 235px;
 }
 
 
