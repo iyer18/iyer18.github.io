@@ -4,7 +4,7 @@ body {
 	font-family: Helvetica, "Helvetica", Helvetica, sans-serif;
 	font-size: 14px;
 	color: #262275;
-	background-color: #111111;
+	background-color: #000000;
 	height: 100%;
 }
 
@@ -23,6 +23,7 @@ img: {
 #wrap {min-height: 100%;}
 #side {
 	margin-left: 29.6em;
+    background-color: #000000;
 }
 /************************* Menu Bar *************************/
 
