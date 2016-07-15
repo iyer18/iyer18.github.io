@@ -11,20 +11,75 @@ body {
 p {
 	width: 95%;
 }
-
+h1 {
+    text-shadow: 0 2px 0 #17999b;
+    color: #fff;
+}
 
 img: {
     border-radius: 50%;
+}
+hr { 
+    margin-left: -25em;
+    margin-right:0;
+    border: 1px solid #17999b;
 }
 
 /************************* ID's *************************/
 
 
-#wrap {min-height: 100%;}
-#side {
+#wrap {
+    min-height: 100%;
+}
+#top {
+    position: fixed;
+    top:0;
 	margin-left: 29.6em;
     background-color: #000000;
 }
+#side {
+    position: absolute;
+    top: 2em; 
+    left:30em;
+    z-index: -1;
+    background-color: #000000;
+    overflow-y: scroll;
+        max-width: 100%;
+
+    overflow-x: hidden;
+
+}
+
+/************************* Pages *************************/
+#page1 {
+    margin-left: 19em; 
+
+}
+#page2 {
+}
+
+/************************* Content Box *************************/
+
+#contentBox {
+    height: 20em;
+    margin-right:10px;
+    background-color: rgba(23, 153, 155, 0.5);
+    opacity: 0.65;
+    border-radius: 10px;
+    float: right;
+
+}
+#contentBox h1{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 0 2px 0 #000;
+    color: #fff;    
+}
+#contentBox p{
+    padding-left: 20px;
+    color: #ddd;
+}
+
 /************************* Menu Bar *************************/
 
 #menu, #menu ul {
@@ -33,7 +88,7 @@ img: {
     list-style: none;
 }
 #menu {
-    width: 100%;
+    width: 110%;
     margin: 0px auto;
     border: 1px solid #17999b;
     background-color: #111;
