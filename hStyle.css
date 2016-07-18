@@ -7,7 +7,6 @@ body {
 	background-color: #000000;
 	height: 100%;
 }
-
 p {
 	width: 95%;
 }
@@ -24,13 +23,15 @@ hr {
     margin-right:0;
     border: 1px solid #17999b;
 }
+table {
+    width: 99%;
+}
+
+
 
 /************************* ID's *************************/
 
 
-#wrap {
-    min-height: 100%;
-}
 #top {
     position: fixed;
     top:0;
@@ -42,11 +43,7 @@ hr {
     top: 2em; 
     left:30em;
     z-index: -1;
-    background-color: #000000;
-    overflow-y: scroll;
-        max-width: 100%;
-
-    overflow-x: hidden;
+    background-color: #000;
 
 }
 
@@ -56,41 +53,51 @@ hr {
 
 }
 #page2 {
+    margin-top: 3em; 
 
 }
 #page3 {
+    margin-top: 3em; 
     text-align: left;
-    
+
+
+
 }
 
 /************************* Content Box *************************/
 
 #contentBox {
-    height: 20em;
-    margin-right:10px;
+    height: 21em;
+    width: 100%;
     background-color: rgba(23, 153, 155, 0.5);
     opacity: 0.65;
     border-radius: 10px;
-    padding: 5px;
 
 }
 #contentBox h1{
-
-    padding-left: 10px;
     padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
     text-shadow: 0 2px 0 #000;
     color: #fff;    
 }
-#contentBox h3{
+#contentBox h2{
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-shadow: 0 2px 0 #000;
+    color: #fff;    
+}
+#contentBox h5{
 
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-shadow: 0 1px 0 #000;
     color: #eee;    
 }
 #contentBox p{
-    font-size: 12px; 
-    padding-left: 20px;
+    font-size: 13px; 
+    padding-left: 10px;
     color: #ddd;
 }
 
@@ -239,19 +246,14 @@ hr {
     border-radius: 0 0 3px 3px;
 }
 #menu .active {
-    background-color: 
+    background-color: #222;
+    color: #eee;
 }
 
 /************************* Side Bar *************************/
 
 
 #main {
-
-	-moz-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
-		-webkit-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
-		-ms-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
-		transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
-		-webkit-overflow-scrolling: touch;
 		position: fixed;
 		top: 0;
 		width: 30em;
@@ -268,7 +270,7 @@ hr {
 		font-size: 1em;
 		color: #17999b;
 		border-right: 2px solid #17999b;
-		overflow:auto;
+		overflow:hidden;
 
 }
 
