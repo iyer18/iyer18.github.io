@@ -45,7 +45,7 @@ table {
 }
 #side {
     position: absolute;
-    top: 2vh; 
+    top: 4vh; 
     left:30vw;
     z-index: -1;
     background-color: #000;
@@ -57,11 +57,11 @@ table {
 
 }
 #page2 {
-    margin-top: 3vh; 
+    margin-top: 4vh; 
 
 }
 #page3 {
-    margin-top: 3vh; 
+    margin-top: 4vh; 
     text-align: left;
 
 
