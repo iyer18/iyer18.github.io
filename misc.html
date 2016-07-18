@@ -4,7 +4,6 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 		<title>Rajalakshmy Iyer</title>
 		<link href="hStyle.css" rel="stylesheet" type="text/css">
-		<script src="index.js"></script>
 	</head>
 
 	<body>
@@ -17,7 +16,7 @@
 						<a style="padding-left: 27.5em; " target="_blank" title="find me on Github" href="https://github.com/iyer18"><img alt="follow me on github" src="GitHub-Mark-Light-32px.png" border=0></a>
 						</div>
 						<div>
-							<table style="width:100%">
+							<table style="width:100%;">
 							  <tr>
 							    <th><div id="circle"></div></th>
 							    <th><div id="circle">
@@ -60,13 +59,21 @@
 		</div>
 		<div id="top">
 			<ul id="menu">
-	    		<li><a class="active" href="index.html">Home</a></li>
-			    <li><a href="about.html">About Me</a></li>
-	    		<li><a href="projects.html" style=" animation-duration: 1s; transition-timing-function: ease-in;">Projects</a>
-	
+	    		<li><a href="index.html">Home</a></li>
+			    <li><a class="active" href="about.html">About Me</a></li>
+	    		<li><a href="projects.html" data-transition="turn">Projects</a>
+			        <ul>
+			            <li><a href="java.html">Java</a></li>
+				            <ul>
+				            	<li><a href="safe.html">SafeWalk Android App</a></li>
+				            </ul>
+			            <li><a href="c.html">C/C++</a></li>
+			            <li><a href="sql.html">SQLplus</a></li>
+			            <li><a href="swift.html">Swift</a></li>
+			        </ul>
 	    		</li>
 			    <li><a href="edu.html">Education</a></li>
-			    <li><a href="skills.html">Skills</a></li>
+			    <li><a href="skill.html">Skills</a></li>
 			    <li><a href="exp.html">Experience</a></li>
 			    <li><a href="misc.html">Misc.</a></li>
 
@@ -74,14 +81,30 @@
 			</ul>
 
 		</div>
+		
+
 		<div id="side">
-			<div id="page1">
-				<img style="height:100%;" src="me2.png">		
-				<br><br>
+			<div id="page2">
+				<table>
+				  	<tr>
+				  		<th><h1>About Me</h1></th>
+						<th></th>
+				  	</tr>
+				  	<tr>
+					  	<td>
+							<img style="margin-left:10px; height:20em; border-radius: 10px; opacity: 0.7;display: inline-block;float: left;" src="images/IMG_4075.jpg">	</td>
+						<td>
 
+							<div id="contentBox">
+								<h1>About Me </h1>
+								<p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text <br><br><br><br><br><br><br><br><br><br><br></p>
+							</div> </td>
+					</tr>
+				</table>
+				<br><br><br>
 			</div>
-		</div>
-
+		</div>		
 	</body>
 
 </html>
+
