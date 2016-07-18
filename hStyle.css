@@ -39,7 +39,7 @@ table {
 #top {
     position: fixed;
     top:0;
-	margin-left: 29.5%;
+	margin-left: 29.4vw;
     background-color: #000000;
     min-width: 600px;
 }
@@ -71,7 +71,7 @@ table {
 /************************* Content Box *************************/
 
 #contentBox {
-    height: 2em;
+    height: 20em;
     width: 100%;
     background-color: rgba(23, 153, 155, 0.5);
     opacity: 0.65;
