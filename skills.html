@@ -4,6 +4,16 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 		<title>Rajalakshmy Iyer</title>
 		<link href="hStyle.css" rel="stylesheet" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script>
+			jQuery(document).ready(function() {	
+				jQuery('.skillbar').each(function(){
+					jQuery(this).find('.skillbar-bar').animate({
+						width:jQuery(this).attr('data-percent')
+					},3000);
+				});
+			});
+		</script>
 	</head>
 
 	<body>
@@ -75,25 +85,155 @@
 
 		<div id="side">
 			<div id="page2">
-				<table>
+				<table style="margin: 20px;width:65vw">
 				  	<tr>
 				  		<th><h1>Skills</h1></th>
-						<th></th>
+				  		<th></th>
 				  	</tr>
 				  	<tr>
-					  	<td>
-							<img style="margin-left:10px; height:20em; border-radius: 10px; opacity: 0.7;display: inline-block;float: left;" src="images/IMG_4075.jpg">	</td>
+				  		<td><h3>Programming Skills</h3></td>
+				  		<td></td>
+				  	</tr>
+				  	<tr>
 						<td>
+							<div class="skillbar clearfix " data-percent="75%">
+								<div class="skillbar-title"><span>Java</span></div>
+								<div class="skillbar-bar"></div>
+								<div class="skill-bar-percent">75% 2 Years of Experience</div>
+							</div> <!-- End Skill Bar -->
 
-							<div id="contentBox">
-								<h1>About Me </h1>
-								<p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text <br><br><br><br><br><br><br><br><br><br><br></p>
-							</div> </td>
+							<div class="skillbar clearfix " data-percent="65%">
+								<div class="skillbar-title"><span>C/C++</span></div>
+								<div class="skillbar-bar"></div>
+								<div class="skill-bar-percent">65% 1.5 Years of Experience</div>
+							</div> <!-- End Skill Bar -->
+
+							<div class="skillbar clearfix " data-percent="55%">
+								<div class="skillbar-title"><span>Swift</span></div>
+								<div class="skillbar-bar"></div>
+								<div class="skill-bar-percent">55% 1 Year of Experience</div>
+							</div> <!-- End Skill Bar -->
+
+							<div class="skillbar clearfix " data-percent="20%">
+								<div class="skillbar-title"><span>Assembly</span></div>
+								<div class="skillbar-bar"></div>
+								<div class="skill-bar-percent">20% Just learnt basics</div>
+							</div> <!-- End Skill Bar -->
+
+							<div class="skillbar clearfix " data-percent="40%">
+								<div class="skillbar-title"><span>HTML, CSS</span></div>
+								<div class="skillbar-bar"></div>
+								<div class="skill-bar-percent">40% Actively Learning</div>
+							</div> <!-- End Skill Bar -->
+
+							<div class="skillbar clearfix " data-percent="30%">
+								<div class="skillbar-title"><span>JavaScript</span></div>
+								<div class="skillbar-bar"></div>
+								<div class="skill-bar-percent">30% Actively Learning</div>
+							</div> <!-- End Skill Bar -->
+
+							<div class="skillbar clearfix " data-percent="40%">
+								<div class="skillbar-title"><span>SQL</span></div>
+								<div class="skillbar-bar"></div>
+								<div class="skill-bar-percent">40% Actively Learning</div>
+							</div> <!-- End Skill Bar -->
+
+							<div class="skillbar clearfix " data-percent="30%">
+								<div class="skillbar-title"><span>R</span></div>
+								<div class="skillbar-bar"></div>
+								<div class="skill-bar-percent">30% Just learnt basics</div>
+							</div> <!-- End Skill Bar -->
+					</tr>
+					<tr>
+				  		<td><h3>Design Skills</h3></td>
+				  		<td></td>
+				  	</tr>
+				  	<tr>
+						<td>
+							<div class="skillbar clearfix " data-percent="70%">
+								<div class="skillbar-title"><span>Photoshop</span></div>
+								<div class="skillbar-bar"></div>
+								<div class="skill-bar-percent">70% Semi-Pro</div>
+							</div> <!-- End Skill Bar -->
+
+							<div class="skillbar clearfix " data-percent="65%">
+								<div class="skillbar-title"><span>Illustrator</span></div>
+								<div class="skillbar-bar"></div>
+								<div class="skill-bar-percent">65% Semi-Pro</div>
+							</div> <!-- End Skill Bar -->
+
+							<div class="skillbar clearfix " data-percent="65%">
+								<div class="skillbar-title"><span>Indesign</span></div>
+								<div class="skillbar-bar"></div>
+								<div class="skill-bar-percent">65% Semi-Pro</div>
+							</div> <!-- End Skill Bar -->
+
+
+					</tr>
+					<tr>
+				  		<td><h3>Language Skills</h3></td>
+				  		<td></td>
+				  	</tr>
+				  	<tr>
+						<td>
+							<div class="skillbar clearfix " data-percent="100%">
+								<div class="skillbar-title"><span>English</span></div>
+								<div class="skillbar-bar"></div>
+								<div class="skill-bar-percent">100% Professional Proficiency</div>
+							</div> <!-- End Skill Bar -->
+
+							<div class="skillbar clearfix " data-percent="70%">
+								<div class="skillbar-title"><span>Hindi</span></div>
+								<div class="skillbar-bar"></div>
+								<div class="skill-bar-percent">70% Native Speaker</div>
+							</div> <!-- End Skill Bar -->
+
+							<div class="skillbar clearfix " data-percent="50%">
+								<div class="skillbar-title"><span>Mandarin</span></div>
+								<div class="skillbar-bar"></div>
+								<div class="skill-bar-percent">50% Adequet for Communication</div>
+							</div> <!-- End Skill Bar -->
+
+							<div class="skillbar clearfix " data-percent="40%">
+								<div class="skillbar-title"><span>Tamil</span></div>
+								<div class="skillbar-bar"></div>
+								<div class="skill-bar-percent">40% Tolerable</div>
+							</div> <!-- End Skill Bar -->
+					</tr>
+					<tr>
+				  		<td><h3>Hobbies</h3></td>
+				  		<td></td>
+				  	</tr>
+				  	<tr>
+						<td>
+							<div class="skillbar clearfix " data-percent="100%">
+								<div class="skillbar-title"><span>Reading</span></div>
+								<div class="skillbar-bar"></div>
+								<div class="skill-bar-percent">Love Reading Novels, Manga, Encyclopedias</div>
+							</div> <!-- End Skill Bar -->
+
+							<div class="skillbar clearfix " data-percent="90%">
+								<div class="skillbar-title"><span>Cycling</span></div>
+								<div class="skillbar-bar"></div>
+								<div class="skill-bar-percent">Love to go on Cycling trips </div>
+							</div> <!-- End Skill Bar -->
+
+							<div class="skillbar clearfix " data-percent="85%">
+								<div class="skillbar-title"><span>Badminton</span></div>
+								<div class="skillbar-bar"></div>
+								<div class="skill-bar-percent">Great Stress relief</div>
+							</div> <!-- End Skill Bar -->
+
+							<div class="skillbar clearfix " data-percent="95%">
+								<div class="skillbar-title"><span>LogicProblems</span></div>
+								<div class="skillbar-bar"></div>
+								<div class="skill-bar-percent">Sudoku, Crosswords </div>
+							</div> <!-- End Skill Bar -->
 					</tr>
 				</table>
 				<br><br><br>
 			</div>
-		</div>		
+		</div>	
 	</body>
 
 </html>
