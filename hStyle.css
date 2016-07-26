@@ -84,7 +84,7 @@ button > span {
 
 }
 #page3 {
-    margin: 4vh 5vh 2vh 7vh; 
+    margin: 4vh 2vw 2vh 4vw; 
 
 }
 #page7 {
@@ -166,10 +166,10 @@ a:visited {
 
 .overlay {
   position: fixed;
-  top: 0;
+  top: 4vh;
+  left:30vw;
   bottom: 0;
-  left: 0;
-  right: 0;
+  right:0;
   background: rgba(0, 0, 0, 0.7);
   transition: opacity 500ms;
   opacity: 0;
@@ -182,12 +182,12 @@ a:visited {
 }
 
 .popup {
-  margin: 25vh auto;
-  left: 15vw;
+  top: 20vh;
+  left: 4vw;
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  width: 55%;
+  width: 54vw;
   position: relative;
   transition: all 5s ease-in-out;
 }
