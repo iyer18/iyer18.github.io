@@ -81,11 +81,22 @@ button > span {
 }
 #page2 {
     margin-top: 4vh; 
-
+    margin-left: 4vw;
 }
 #page3 {
-    margin: 4vh 2vw 2vh 4vw; 
-
+    margin: 4vh 2vw 2vh 5vw; 
+}
+#page4 {
+    margin-top: 4vh; 
+    margin-left: 2vw;
+}
+#page5 {
+    margin-top: 4vh; 
+    margin-left: 2vw;
+}
+#page6 {
+    margin-top: 4vh; 
+    margin-left: -5vw;
 }
 #page7 {
     margin-top: 45vh; 
@@ -138,13 +149,56 @@ button > span {
     color: #ddd;
 }
 
+.note {
+  position: relative;
+  padding: 1em 1.5em;
+  margin: 2em auto;
+  color: #fff;
+  background: #5CC3C3;
+  overflow: hidden;
+}
+
+.note:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0 20px 20px 0;
+  border-style: solid;
+  border-color: #111 #111 #17999b #17999b;
+  background: #5CC3C3;
+  display: block; width: 0;
+}
+
+
+.polaroid {
+  position: relative;
+  width: 220px;
+}
+ 
+.polaroid img {
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+}
+ 
+.polaroid p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  color: #888;
+}
+
 /************************* tiles **************************/
 
 
 .tile {
-    width: 13em;
-    height: 12em;
-    line-height: 12em;
+    width: 18vw;
+    height: 14vw;
+    line-height: 14vw;
     text-align: center;
     vertical-align: middle;
     background: #5CC3C3;
@@ -156,6 +210,7 @@ button > span {
 }
 a:link {
     color: #fff;
+    text-decoration: none;
 }
 a:visited {
     color: #fff;
