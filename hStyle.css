@@ -61,7 +61,7 @@ button > span {
 #top {
     position: fixed;
     top:0;
-	margin-left: 29.4vw;
+	  left: 30vw;
     background-color: #000000;
     min-width: 600px;
     overflow: hidden;
@@ -69,33 +69,34 @@ button > span {
 }
 #side {
     position: absolute;
-    top: 4vh; 
     left:30vw;
     z-index: 1;
 }
 
 /************************* Pages *************************/
-#page1 {
-    margin-left: 45vh; 
-
+#page1 { 
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
 }
 #page2 {
-    margin-top: 4vh; 
+    margin-top: 8vh; 
     margin-left: 4vw;
 }
 #page3 {
-    margin: 4vh 2vw 2vh 5vw; 
+    margin: 8vh 3vw 2vh 5vw; 
 }
 #page4 {
-    margin-top: 4vh; 
+    margin-top: 8vh; 
     margin-left: 2vw;
 }
 #page5 {
-    margin-top: 4vh; 
+    margin-top: 8vh; 
     margin-left: 2vw;
 }
 #page6 {
-    margin-top: 4vh; 
+    margin-top: 8vh; 
     margin-left: -5vw;
 }
 #page7 {
@@ -155,7 +156,7 @@ button > span {
   margin: 2em auto;
   color: #fff;
   background: #5CC3C3;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .note:before {
@@ -196,9 +197,9 @@ button > span {
 
 
 .tile {
-    width: 18vw;
-    height: 14vw;
-    line-height: 14vw;
+    width: 20vw;
+    height: 16vw;
+    line-height: 16vw;
     text-align: center;
     vertical-align: middle;
     background: #5CC3C3;
@@ -293,6 +294,7 @@ a:visited {
     background-color: #111;
     background-image: linear-gradient(#444, #111);
     box-shadow: 0 1px 1px #777;
+
 }
 #menu:before,
 #menu:after {
@@ -313,7 +315,7 @@ a:visited {
 
 #menu a {
     float: left;
-    padding: 12px 30px;
+    padding: 15px 30px;
     color: #999;
     text-transform: uppercase;
     font: bold 12px Arial, Helvetica;
@@ -323,21 +325,6 @@ a:visited {
 
 #menu li:hover > a {
     color: #fafafa;
-}
-
-#menu ul {
-    margin: 20px 0 0 0;
-    opacity: 0;
-    visibility: hidden;
-    position: absolute;
-    top: 38px;
-    left: 0;
-    z-index: 2;    
-    background: #444;   
-    background: linear-gradient(#444, #111);
-    box-shadow: 0 -1px 0 rgba(255,255,255,.3);  
-    border-radius: 3px;
-    transition: all .2s ease-in-out;
 }
 
 #menu .active {
@@ -399,13 +386,11 @@ a:visited {
 	background: #17999b;
 }
 #circle {
-	width: 60px;
-	height: 60px;
+	width: 5vw;
+	height: 5vw;
 	background: #17999b;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
 	border-radius: 50px;
-	margin: 2px;
+	margin: 0.2vw;
 }
 
 /************************* Skill Bar *************************/
@@ -419,17 +404,7 @@ a:visited {
     background:#eee;
     height:35px;
     border-radius:3px;
-    -moz-border-radius:3px;
-    -webkit-border-radius:3px;
-    -webkit-transition:0.4s linear;
-    -moz-transition:0.4s linear;
-    -ms-transition:0.4s linear;
-    -o-transition:0.4s linear;
     transition:0.4s linear;
-    -webkit-transition-property:width, background-color;
-    -moz-transition-property:width, background-color;
-    -ms-transition-property:width, background-color;
-    -o-transition-property:width, background-color;
     transition-property:width, background-color;
 }
 
@@ -442,10 +417,6 @@ a:visited {
     font-size:13px;
     color:#ffffff;
     background-color: rgba(23, 153, 155, 0.5);
-    -webkit-border-top-left-radius:3px;
-    -webkit-border-bottom-left-radius:4px;
-    -moz-border-radius-topleft:3px;
-    -moz-border-radius-bottomleft:3px;
     border-top-left-radius:3px;
     border-bottom-left-radius:3px;
 }
@@ -456,10 +427,6 @@ a:visited {
     padding:0 20px;
     height:35px;
     line-height:35px;
-    -webkit-border-top-left-radius:3px;
-    -webkit-border-bottom-left-radius:3px;
-    -moz-border-radius-topleft:3px;
-    -moz-border-radius-bottomleft:3px;
     border-top-left-radius:3px;
     border-bottom-left-radius:3px;
 }
@@ -469,8 +436,6 @@ a:visited {
     width: 0px;
     background:#5CC3C3;;
     border-radius:3px;
-    -moz-border-radius:3px;
-    -webkit-border-radius:3px;
 }
 
 .skill-bar-percent {
