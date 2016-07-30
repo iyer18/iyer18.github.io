@@ -186,6 +186,7 @@ table {
   color: #fff;
   line-height: 3vw;
   margin-left: 18vw;
+  cursor: pointer;
 }
 .button > img {
   height: 1.5vw;
@@ -193,6 +194,9 @@ table {
 .button > img,
 .button > span {
   vertical-align: middle;
+}
+.button:link {
+
 }
 /************************* tiles **************************/
 
