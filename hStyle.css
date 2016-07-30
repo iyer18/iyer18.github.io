@@ -139,7 +139,7 @@ table {
   margin: 2em auto;
   color: #fff;
   background: #5CC3C3;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .note:before {
