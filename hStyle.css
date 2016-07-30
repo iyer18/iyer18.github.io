@@ -32,23 +32,6 @@ table {
     color: #fff;
     width: 99%;
 }
-button {
-    width: 12vw;
-    height: 6vh;
-    background: #5CC3C3;
-    border: 1px solid #5CC3C3;
-    color: #fff;
-}
-
-button > img {
-  height: 2.5vh;
-}
-
-/* Add this to align vertically */
-button > img,
-button > span {
-  vertical-align: middle;
-}
 
 
 
@@ -193,6 +176,24 @@ button > span {
   color: #888;
 }
 
+.button {
+  background-color: #5cc3c3;
+  border-radius: 5px;
+  height: 3vw;
+  width: 16vw;
+  vertical-align: center;
+  text-align: center;
+  color: #fff;
+  line-height: 3vw;
+  margin-left: 18vw;
+}
+.button > img {
+  height: 1.5vw;
+}
+.button > img,
+.button > span {
+  vertical-align: middle;
+}
 /************************* tiles **************************/
 
 
