@@ -198,6 +198,27 @@ table {
 .button:link {
 
 }
+.resume {
+  background-color: #5cc3c3;
+  border-radius: 5px;
+  height: 3vw;
+  width: 16vw;
+  vertical-align: center;
+  text-align: center;
+  color: #fff;
+  line-height: 3vw;
+  margin-left: 7vw;
+  cursor: pointer;
+
+}
+.resume > img {
+  height: 1.5vw;
+}
+.resume > img,
+.resume > span {
+  vertical-align: middle;
+}
+
 /************************* tiles **************************/
 
 
